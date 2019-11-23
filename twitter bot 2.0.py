@@ -1,10 +1,10 @@
 import tweepy
 import time
 import elizabot
-CK="uDGavGkVAeqH0UvDIdgGnils4"
-CS="6pKYE0lBshuPTXdRMDAxILXMhJ2e1xL1zM4V85IYNM4aQDoA5T"
-AT="935371370128535552-wOckNr2QW80FsOi4W9WgG643KyYFQuC"
-ATS="gixV61kGNTOGNq2jutfoVOgrcVrG9MMg0HoswJhEIweuy"
+CK=""
+CS=""
+AT=""
+ATS=""
 # Authenticate to Twitter
 auth = tweepy.OAuthHandler(CK,CS)
 auth.set_access_token(AT,ATS)
